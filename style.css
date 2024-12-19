@@ -1,0 +1,65 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 0;
+    padding: 0;
+}
+
+/* Modo Día */
+body.day-mode {
+    background-color: rgb(240, 248, 255); /* Fondo claro */
+    color: rgb(51, 51, 51); /* Texto oscuro */
+}
+
+/* Modo Noche */
+body.night-mode {
+    background-color: rgb(44, 62, 80); /* Fondo oscuro */
+    color: rgb(236, 240, 241); /* Texto claro */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: rgb(52, 152, 219); /* Color del título */
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgb(52, 152, 219); /* Azul */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: rgb(41, 128, 185); /* Azul más oscuro */
+}
+
+#weatherDetails {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+/* Ajustes para los detalles del clima */
+#weatherDetails strong {
+    font-weight: bold;
+}
+
+/* Estilos para el botón de modo noche/día */
+#modeButton {
+    margin-top: 20px;
+    background-color: rgb(230, 126, 34); /* Naranja */
+}
+
+#modeButton:hover {
+    background-color: rgb(211, 84, 0); /* Naranja más oscuro */
+}
